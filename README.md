@@ -1,5 +1,6 @@
 # network_dissection_tf
 Network dissection for tensorflow models, according to http://netdissect.csail.mit.edu/final-network-dissection.pdf
+The method is used to analyze susceptibility to certain objects of feature maps within convolutional neural networks.
 
 This script runs tensorflow graph to obtain tensors for dissection, then calculates percentiles for each feature maps, after that evaluates interpolated and thresholded features map for segmentation task.
 
